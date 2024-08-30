@@ -39,10 +39,26 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
+- CSS Transitions
 
 ### What I learned
 
-I learnt how to make custom links and how to use CSS Grid to center a component in a screen.
+I learnt how to make custom links and how to use CSS Grid to center a component in a screen. I also tried out how to make a simple transition for the custom links. I think it provides a better UX.
+
+```css
+a {
+  background-color: var(--grey700);
+  color: var(--white);
+  text-decoration: none;
+  padding: 1rem;
+  min-width: 20rem;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: background-color 0.25s ease-in 0.05s, color 0.25s ease-in 0.05s;
+}
+```
+
+When the event is triggered the transition starts after 0.05s delay and the ease-in transition takes 0.25s. The transition applies to the background-color and the color (of the text).
 
 ## Author
 
