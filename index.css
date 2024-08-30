@@ -71,6 +71,7 @@ a {
     min-width: 20rem;
     border-radius: 10px;
     font-weight: 600;
+    transition: background-color 0.25s ease-in 0.05s, color 0.25s ease-in 0.05s;
 }
 
 a:hover, a:focus {
